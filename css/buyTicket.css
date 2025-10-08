@@ -1,0 +1,85 @@
+:root {
+    --white-color: #ffffff;
+    --primary-color: #382ef8;
+    --secondary-color: #07ee12;
+    --section-bg-color: #f0f8ff;
+    --custom-btn-bg-color: #f8b200;
+    --custom-btn-bg-hover-color: #22a322;
+    --dark-color: #4c4848;
+    --p-color: #717275;
+    --border-color: #7fffd4;
+    --link-hover-color: #ff0000;
+
+    --body-font-family: 'Outfit', sans-serif;
+
+    --h1-font-size: 74px;
+    --h2-font-size: 46px;
+    --h3-font-size: 32px;
+    --h4-font-size: 28px;
+    --h5-font-size: 24px;
+    --h6-font-size: 22px;
+    --p-font-size: 18px;
+    --btn-font-size: 14px;
+    --copyright-font-size: 16px;
+
+    --border-radius-large: 100px;
+    --border-radius-medium: 20px;
+    --border-radius-small: 10px;
+
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 0px;
+    margin-top: 0%;
+    text-align: center;
+}
+
+header .text-header {
+    color: var(--custom-btn-bg-color);
+}
+
+div .haut {
+    width: 30%;
+    background-color: black;
+}
+
+
+section .right {
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    padding: 10px;
+
+}
+
+section .left {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    padding: 10px;
+}
+
+div .rightTicket {
+    position: absolute;
+    right: 0px;
+    width: 50px;
+    padding: 10px;
+    margin-left: 50%;
+    border: 3px solid green;
+}
+
+div .leftTicket {
+    position: absolute;
+    left: 0px;
+    width: 50px;
+    padding: 10px;
+    border: 3px solid green;
+}
