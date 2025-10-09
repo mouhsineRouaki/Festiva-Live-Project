@@ -19,20 +19,17 @@ body {
 
 .text-header {
   letter-spacing: 5px;
-  color: #ccc;
-  left: 40px;
-  font-weight: 900;
+   color: #ccc;
 }
-
 .text-header:hover {
-  height: 0%;
-  color: var(--primary);
+    height: 0%;
+   color: var(--primary);
 }
 
 .ticket-section {
   position: relative;
   width: 100%;
-  height: 750px;
+  height: 700px;
   margin-top: 0;
 }
 
@@ -59,7 +56,7 @@ body {
 
 
 .ticket-info {
-  font-size: 40px;
+ font-size: 40px;
   position: relative;
   color: var(--white);
   z-index: 2;
@@ -76,28 +73,23 @@ body {
   font-size: 60px;
   margin: 0;
 }
-
-.backHome {
-  position: absolute;
-  right: 80px;
-  top: 20px;
-  color: #ccc;
-  font-weight: 900;
+.backHome{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #ccc;
 }
-
-.backHome:hover {
-  color: var(--primary);
+.backHome:hover{
+    color: var(--primary);
 }
-
-.getTickets {
-  background-color: #f8b200;
-  border-radius: 90px;
-  height: 50px;
+.getTickets{
+    background-color: #f8b200;
+    border-radius: 90px;
+    height: 50px;
 
 }
-
-.getTickets a {
-  text-decoration-line: none;
+.getTickets a{
+    text-decoration-line: none;
 }
 
 .villeTicket {
@@ -198,11 +190,9 @@ footer {
   .headerTicket {
     flex-direction: column;
   }
-
-  .ticket-info {
+  .ticket-info  {
     font-size: 30px;
   }
-
   .ticket-info h1 {
     font-size: 40px;
   }
@@ -210,9 +200,8 @@ footer {
   .payment-section {
     padding: 25px;
   }
-
-  .text-header {
-    padding-top: 6px;
+  .text-header{
+    padding-top:6px ;
     font-size: 20px;
   }
 }
