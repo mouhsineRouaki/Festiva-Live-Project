@@ -18,11 +18,11 @@ body {
 
 
 .text-header {
-  letter-spacing: 5px;
   color: #ccc;
   left: 40px;
   font-weight: 900;
 }
+
 
 .text-header:hover {
   height: 0%;
@@ -35,6 +35,7 @@ body {
   height: 750px;
   margin-top: 0;
 }
+
 
 .ticket {
   position: relative;
@@ -83,22 +84,40 @@ body {
   top: 20px;
   color: #ccc;
   font-weight: 900;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 20px;
+  border: 2px solid var(--primary);
 }
 
 .backHome:hover {
-  color: var(--primary);
+  color: var(--white);
+  font-weight: bolder;
+  background-color: #f8b200;
 }
 
 .getTickets {
+  border-radius: 50px;
+  border: 2px solid var(--primary);
+  padding: 20px;
+
+}
+.getTickets:hover {
+  color: var(--white);
+  font-weight: bolder;
   background-color: #f8b200;
-  border-radius: 90px;
-  height: 50px;
 
 }
 
 .getTickets a {
   text-decoration-line: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.getTickets a:hover {
+  font-weight: bold;
+  color: var(--white);
+}
+
 
 .villeTicket {
   color: var(--secondary);
@@ -114,11 +133,37 @@ body {
   backdrop-filter: blur(10px);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  width: 100%;
-  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  height: 800px;
   margin: 40px auto 80px auto;
-  padding: 40px;
+  padding: 10px;
 }
+
+.ticketDet {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-left: 30px;
+  padding: auto;
+  width: 30%;
+  height: 700px;
+  background-color:rgb(236, 236, 236);
+}
+.ville{
+  display: flex;
+  justify-content: center;
+  font-weight: 1000;
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 
 .payment-section h2 {
   color: var(--primary);
@@ -127,44 +172,47 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-
-.payment-form {
+.sousDet{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 900px;
+  height: 0px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  justify-content: space-around;
+  align-items: center;
 }
+.imageTicket{
+  filter: grayscale(20%);
+  opacity: 0,1;
+  background-position: center;
 
-.form-group {
-  display: flex;
-  flex-direction: column;
 }
-
-.form-group label {
-  font-weight: 900;
-  margin-bottom: 5px;
-  color: var(--dark);
-}
-
-.form-group input {
-  padding: 12px;
+.ticketDet:hover .overlay2 {
+  opacity: 1;
   border-radius: var(--radius);
-  border: 1px solid #ccc;
-  font-size: 16px;
-}
 
-.form-group input:focus {
-  border-color: var(--primary);
-  outline: none;
-}
 
-.form-row {
-  display: flex;
-  gap: 10px;
 }
-
-.half {
+.overlay2 {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
   width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 .buy-btn {
   background: var(--secondary);
@@ -202,9 +250,36 @@ footer {
   .ticket-info {
     font-size: 30px;
   }
+  .payment-section h2 {
+    margin-bottom: 0;
+    gap: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+  .payment-section {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+    align-items: center;
+    height:1900px ;
+  }
+  .ticketDet{
+    width: 100%;
+    margin-left: 10px;
+    height: 700px;
+  }
+
+  .backHome{
+    right: 0px;
+  }
 
   .ticket-info h1 {
     font-size: 40px;
+  }
+  .sousDet{
+    font-weight: 10px;
   }
 
   .payment-section {
