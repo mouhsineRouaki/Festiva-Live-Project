@@ -1,66 +1,56 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Festava Live - Buy Ticket</title>
-    <link href="css/contact.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Festava Live - Contact</title>
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
+  <main>
+    <section class="ticket-section">
+      <div class="ticket">
+        <div class="overlay">
+          <div class="overlay-content">
+            <h1 class="text-header">Music Festival 2025</h1>
+            <a class="backHome" href="index.html">← Retour a l accueil</a>
+            <a href="#contact" class="cta-btn">Nous Contacter</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <main>
-        <section class="ticket-section">
-            <div class="ticket">
-                <div class="overlay">
-                    <h1 class="text-header">Music Festival 2025</h1>
-                    <a class="backHome" href="index.html">Back to home</a>
-                </div>
-                <div class="ticket-info">
-                    <div class="headerTicket">
-                        <h1>Music Festival 2025</h1>
-                        <h1 class="villeTicket">at Safi</h1>
-                    </div>
-                    <p class="getTickets"><a href="#payment-section">Contact Us</a></p>
-                </div>
-            </div>
-        </section>
+    <section class="payment-section" id="contact">
+      <h2>Contactez-nous</h2>
+      <form class="payment-form">
+        <div class="form-group">
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" placeholder="Ex: Mouhsine Rouaki" required>
+        </div>
 
-        <section class="payment-section" id="payment-section">
-            <h2> Contact Us </h2>
-            <form class="payment-form">
-                <div class="form-group">
-                    <label for="name">Nom </label>
-                    <input type="text" id="nom" placeholder="Mouhsine rouaki" required>
-                </div>
+        <div class="form-group">
+          <label for="prenom">Prénom</label>
+          <input type="text" id="prenom" placeholder="Ex: Ahmed" required>
+        </div>
 
-                <div class="form-group">
-                    <label for="Prenom">Prenom </label>
-                    <input type="text" id="prenom" placeholder="Mouhsine rouaki" required>
-                </div>
+        <div class="form-group">
+          <label for="email">Adresse Email</label>
+          <input type="email" id="email" placeholder="exemple@email.com" required>
+        </div>
 
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" placeholder="example@email.com" required>
-                </div>
+        <div class="form-group">
+          <label for="message">Votre Message</label>
+          <textarea id="message" placeholder="Decrivez votre probleme..." rows="5"></textarea>
+        </div>
 
+        <button type="submit" class="buy-btn">Envoyer le message</button>
+      </form>
+    </section>
+  </main>
 
-                <div class="form-group">
-                    <div class="form-group">
-                        <label>Votre Probleme</label>
-                        <textarea></textarea>
-                    </div>
-                </div>
-
-                <button type="submit" class="buy-btn">Buy Ticket</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2025 Festava Live. All Rights Reserved.</p>
-    </footer>
+  <footer>
+    <p>© 2025 Festava Live. Lorem ipsum dolor sit amet..</p>
+  </footer>
 </body>
-
 </html>

@@ -16,19 +16,28 @@ body {
   background-color: var(--light);
   background-image: url(/images/background.jpg);
   backdrop-filter: blur(8px);
-  background-position: fixed;
 }
 
 
 .text-header {
-  color: #ccc;
-  left: 40px;
+  position: relative;
+  color: #1a1a1a; 
+  left: 20px;
+  top:20px;
   font-weight: 900;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 25px;
+  height: 50px;
 }
 
 
+
 .text-header:hover {
-  height: 0%;
   color: var(--primary);
 }
 
@@ -112,12 +121,12 @@ body {
 
 }
 
-.getTickets a {
+.getTickets {
   text-decoration-line: none;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.getTickets a:hover {
-  font-weight: bold;
+.getTickets :hover {
   color: var(--white);
 }
 
@@ -195,9 +204,13 @@ body {
 .ticketDet:hover .overlay2 {
   opacity: 1;
   border-radius: var(--radius);
-
-
 }
+.ticketDet:hover .imageTicket {
+  object-fit: cover;
+  object-position: center;
+  transition: all 2s ease-out;
+}
+
 .overlay2 {
   position: absolute;
   top: 50%;
@@ -207,13 +220,13 @@ body {
   height: 50%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: .5s ease-in-out;
   background-color: #fdfdfd;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/video/pexels-2022395.mp4);
+  
 }
 
 
@@ -228,7 +241,7 @@ body {
   cursor: pointer;
   margin-top: 10px;
   box-shadow: 0 0 15px var(--secondary);
-  transition: all 0.3s ease;
+  transition: 3s ease;
 }
 
 .buy-btn:hover {
@@ -293,5 +306,6 @@ footer {
   .text-header {
     padding-top: 6px;
     font-size: 20px;
+    left: 0;
   }
 }
