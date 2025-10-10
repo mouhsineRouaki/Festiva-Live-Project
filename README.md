@@ -7,6 +7,15 @@ Il permet de présenter des concerts, festivals et événements musicaux à veni
 Le but du projet est de pratiquer la structuration d’un site web statique, la création d’une mise en page responsive et la gestion d’un mini-projet collaboratif en front-end.
 
 ---
+###  Les fonctionalites 
+
+  * **gerer le festival (date, time, localisation, les ticket )**
+  * **afficher les artist de ce festival**
+  * **afficher les shedule de festival**
+  * **afficher les pricing de chaque ticket**
+  * **le site sera respensive aui a lutilisateur un bon experience**
+
+---
 
 ##  Étapes de developpemente
 
