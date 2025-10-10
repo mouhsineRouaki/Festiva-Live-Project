@@ -381,10 +381,17 @@ strong {
   z-index: 9;
 }
 
-.navbar-brand,
-.navbar-brand:hover {
+.navbar-brand {
   color: var(--white-color);
   font-size: var(--h5-font-size);
+  font-weight: var(--font-weight-bold);
+}
+.navbar-brand:hover {
+  color: var(--custom-btn-bg-color);
+  background-color: var(--white-color);
+  font-size: var(--h5-font-size);
+  border-radius: 50px;
+  padding: 10px;
   font-weight: var(--font-weight-bold);
 }
 
