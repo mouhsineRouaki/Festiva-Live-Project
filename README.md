@@ -144,5 +144,5 @@ css : [https://www.w3schools.com](https://www.w3schools.com/howto/howto_css_roun
 
 
 ##  About Me
-je suis un developpleur full stack  ,je suis passionner par les technolo
+je suis un developpleur full stack  ,je suis passionner par les technologie web et mobile 
 
